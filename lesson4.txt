@@ -1,0 +1,81 @@
+index.svelte
+<script>
+</script>
+
+<div class="index">
+	<h2>Welcome</h2>
+	<p>
+		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus at ducimus deleniti,
+		blanditiis quod molestias earum, voluptate quisquam adipisci alias hic aut iste pariatur quae
+		voluptatem? Aliquam blanditiis ullam illum autem rerum ex quam nihil quis, quisquam voluptate
+		dignissimos soluta facilis quae itaque, eos necessitatibus odio similique nemo minus delectus
+		consequuntur consequatur vero. Numquam ipsum dolor mollitia commodi. Suscipit, repellat.
+	</p>
+	<a href="/guides">View Guides</a>
+	<a href="/about">About</a>
+</div>
+
+<style>
+	.index {
+		text-align: center;
+		display: block;
+		margin: 20px auto;
+	}
+</style>
+
+about.svelte
+<div class="about">
+	<h2>About Us</h2>
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic impedit eligendi nostrum corrupti
+		architecto voluptas blanditiis fugit iste explicabo eaque esse mollitia repellendus labore
+		similique inventore optio sit molestiae, eveniet possimus nisi? Esse non sint totam! Neque
+		quisquam laudantium corrupti id commodi incidunt necessitatibus labore ipsa dignissimos iure
+		asperiores vitae, quaerat fuga quasi placeat, odio ad? Ullam libero autem eum!
+	</p>
+	<a href="/guides">View Guides</a>
+	<a href="/">Home</a>
+</div>
+
+<style>
+	.about {
+		text-align: center;
+		display: block;
+		margin: 20px auto;
+	}
+</style>
+
+gudes/index.svelte
+<div class="guides">
+	<ul>
+		<li>
+			<a href="/">guide 1</a>
+		</li>
+		<li>
+			<a href="/">guide 2</a>
+		</li>
+	</ul>
+</div>
+
+<style>
+	.guides {
+		margin-top: 20px;
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	a {
+		display: inline-block;
+		margin-top: 10px;
+		padding: 10px;
+		border: 1px dotted rgba(255, 255, 255, 0.2);
+	}
+</style>
+
+
+guides/hello.svelte
+
+<div>
+	<h2>Hello</h2>
+</div>

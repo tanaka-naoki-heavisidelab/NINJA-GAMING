@@ -1,0 +1,30 @@
+<script>
+	let title = 'Ninja Gaming Guides';
+	const updateTitle = () => {
+		title = 'something completely different';
+	};
+</script>
+
+<div class="index">
+	<h2>{title}</h2>
+	<p>
+		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus at ducimus deleniti,
+		blanditiis quod molestias earum, voluptate quisquam adipisci alias hic aut iste pariatur quae
+		voluptatem? Aliquam blanditiis ullam illum autem rerum ex quam nihil quis, quisquam voluptate
+		dignissimos soluta facilis quae itaque, eos necessitatibus odio similique nemo minus delectus
+		consequuntur consequatur vero. Numquam ipsum dolor mollitia commodi. Suscipit, repellat.
+	</p>
+	<button on:click={updateTitle}>change title</button>
+	<input type="text" bind:value={title} />
+</div>
+
+<!-- <h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+ -->
+<style>
+	.index {
+		text-align: center;
+		display: block;
+		margin: 20px auto;
+	}
+</style>
