@@ -1,7 +1,7 @@
 <!--
 	アンカーをクリックしてからフェッチすると時間がかかる。
 	マウスカーソルがアンカーの上にきたらhoverイベントが生じるので
-	そのタイミングでフェッチする。
+	そのタイミングでフェッチ。
 -->
 <script context="module">
 	export async function load({ fetch }) {
